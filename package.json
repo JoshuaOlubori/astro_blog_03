@@ -13,7 +13,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && corepack enable",
+    "build": "astro build && corepack enable && pnpm install",
     "preview": "astro preview",
     "astro": "astro"
   },
